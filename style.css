@@ -54,7 +54,7 @@ body {
 }
 
 .match .front {
-  background: url("./img/favicon.png") no-repeat center center / contain !important;
+  background: url("./img/favicon.png") no-repeat center center / contain;
   opacity: 0.5;
 }
 
@@ -69,7 +69,7 @@ footer {
 
 @media screen and (max-width: 600px) {
   .boardGrid {
-    max-width: 800px;
+    max-width: 600px;
     width: 100%;
   }
 
@@ -80,7 +80,8 @@ footer {
     width: 120px;
   }
 }
-@media screen and (min-width: 600px) and (max-width: 800px) {
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
   .boardGrid {
     max-width: 800px;
     width: 100%;
